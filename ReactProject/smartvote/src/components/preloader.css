@@ -1,0 +1,14 @@
+.preloader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 90vh;
+    background-color: 163959;
+    z-index: 100;
+    flex-direction: column;
+}
+.preloader img{
+    width: 200px;
+    height: 200px;
+}

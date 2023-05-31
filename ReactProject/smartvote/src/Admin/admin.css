@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #041f31;
+  font-family: sans-serif;
+  color: #fff;
+  overflow-x: hidden;
+}
+.hamburger {
+  color: #bdebea;
+}
+.slid-nav {
+  border-bottom: 2px solid #00f59f;
+}
+.slid-title {
+  font-size: 2.2rem;
+  border-bottom: 2px solid #00f59f;
+}
+.slide-logo {
+  padding: 1rem;
+  color: #bdebea;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+/* .slide-navlist {
+  cursor: pointer;
+  border: 1px solid #bdebea;
+  font-size: 1rem;
+  border-radius: 20px;
+  padding: 0.7rem 2rem;
+  margin-right: 2rem;
+} */
+.slide-navlist li {
+  list-style: none;
+}
+.slide-navlist li a {
+  cursor: pointer;
+  border: 1px solid #bdebea;
+  font-size: 1rem;
+  border-radius: 20px;
+  padding: 0.7rem 2rem;
+  text-decoration: none;
+  color: #bdebea;
+}
+.slide-navlist li a:hover {
+  background: #00f59f;
+  color: #041f31;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: -1px;
+  left: 0;
+  background-color: #031a29;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 6px;
+}
+
+.sidenav a {
+  padding: 53px 22px 14px 35px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: -30px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+/* Candidate verification */
+.btn-reg-verifi {
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  width: 8rem;
+  color: #041f31;
+  font-weight: bold;
+  background: linear-gradient(180deg, #00f5a0 0%, #00d9f5 100%);
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+}
+.btn-reg-verifi:hover {
+  background: linear-gradient(180deg, #00f5a0 0%, #00d9f5 0%);
+}
+/* Voting time setup */
+.voting-time {
+  background-color: #163959;
+  margin: auto;
+  position: relative;
+  border-radius: 2rem;
+  top: 2rem;
+  width: 50rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.admin-blue-line {
+  border-bottom: 2px solid #00d9f5;
+  width: 40rem;
+}
+.blue-line-vertical {
+  border-left: 2px solid #00d9f5;
+}
+.setting {
+  display: flex;
+  flex-direction: row;
+  width: 40rem;
+  justify-content: space-around;
+}
+.reg-title {
+  text-align: center;
+}
+.voting-title {
+  text-align: center;
+}
+.time {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem;
+}
+.time-lable {
+  width: 10rem;
+}
+.date {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem;
+}
+.date-lable {
+  width: 10rem;
+}
+input[type="time"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #bdebea;
+  border-radius: 6px;
+  background: #041f31;
+  color: #bdebea;
+  outline: none;
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+  background-color: #bdebea;
+  border-radius: 1rem;
+}
+input[type="date"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #bdebea;
+  border-radius: 6px;
+  background: #041f31;
+  color: #bdebea;
+  outline: none;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background-color: #bdebea;
+  border-radius: 1rem;
+}
+
+#contract_address {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #bdebea;
+  border-radius: 6px;
+  background: #041f31;
+  color: #bdebea;
+  outline: none;
+}
+
+/* Previous time record */
+.previous-time-record {
+  background-color: #163959;
+  margin: auto;
+  position: relative;
+  border-radius: 2rem;
+  top: 3rem;
+  width: 50rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.previous-data-tile {
+  display: flex;
+  flex-direction: row;
+  width: 30rem;
+  justify-content: space-between;
+}
+.text-data {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.pre-time-data {
+  display: flex;
+  flex-direction: row;
+  width: 30rem;
+  line-height: 1.9;
+  justify-content: space-between;
+}
