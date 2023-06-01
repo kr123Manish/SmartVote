@@ -9,6 +9,9 @@ A) The core idea of the project is to build a fully user friendly interface web 
 
  Smart_Contract_Deplyment.Img
  <br></br><img src="https://github.com/kr123Manish/SmartVote/blob/main/Resources/Project%20ScreenSorts/1.PNG?raw=true"></img><br></br>
- Home_Page.Img
+
+ Welcome to Smart Voter! Your one-stop destination for all things related to elections and voting. Here, you can access valuable information to make informed decisions and actively participate in the democratic process.
  <br></br><img src="https://github.com/kr123Manish/SmartVote/blob/main/Resources/Project%20ScreenSorts/9.PNG?raw=true"></img><br></br>
  
+Admin login typically refers to the login credentials used by administrators or system administrators to access the administrative features and functions of a particular system, website, or application.
+<br></br><img src="https://github.com/kr123Manish/SmartVote/blob/main/Resources/Project%20ScreenSorts/10.PNG?raw=true"></img><br></br>
