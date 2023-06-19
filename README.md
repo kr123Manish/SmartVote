@@ -72,6 +72,15 @@ Develop a secure and decentralized remote voting APP that meets the requirements
 - Blockchain blocks are created when data is added to the blockchain network in the form of nodes.
 <img src = "https://github.com/kr123Manish/SmartVote/blob/main/Resources/Project%20ScreenSorts/30.PNG"/>
 
+- A dummy home page for registering Aadhaar details is available.
+<img src = "https://github.com/kr123Manish/SmartVote/blob/main/Resources/Project%20ScreenSorts/2.PNG"/>
+
+- From this page, the admin has the capability to add, delete, and search for Aadhaar users.
+<img src = "https://github.com/kr123Manish/SmartVote/blob/main/Resources/Project%20ScreenSorts/7.PNG"/>
+
+- If a process does not complete within the 15-minute token validity period of a JWT (JSON Web Token), the user will be required to log in again.
+<img src = "https://github.com/kr123Manish/SmartVote/blob/main/Resources/Project%20ScreenSorts/8.PNG"/>
+
 
 
 
